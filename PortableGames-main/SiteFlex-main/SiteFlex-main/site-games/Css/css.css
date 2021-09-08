@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: #3E4966;
+    flex: content;
+}
+
+header section{
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+header h1{
+    font-size: 10vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#2C1A1A;
+    padding-left: 0.5vh;
+}
+
+header img{
+    width: 12vh;
+    padding-left: 4vh;
+}
+
+#controler{
+    transform: rotate(25.74deg);
+    padding-bottom: 1vh;
+}
+
+main{
+    background: #2C1A1A;  
+}
+
+main section img{
+    width: 40vh;
+    padding-left: 3vh;
+    justify-content: space-between;
+}
+
+
+#Farcry3{
+    width: 15vh;
+    padding-right: 15vh;    
+}
+
+#Horizon{
+    padding-right: 3vh;
+    width: 15vh;
+}
+
+#GTAV{
+    display: none;
+}
+
+#GTAV-p{
+    display: none;
+}
+
+#DarkSouls3{
+    display: none;
+}
+
+#DarkSouls3-p{
+    display: none;
+}
+
+#Em-Construção{
+    display: none;
+}
+
+#Construção{
+    display: none;
+}
+
+#farcry3-p{
+    display: flex;
+    padding-left: 3vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#horizon-p{
+    padding-left: 13vh;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#other-games img{
+    width: 15vh;
+    padding-left: 3vh;
+    justify-content: space-between;
+}   
+
+#Rainbow-six{
+    padding-right: 14vh;
+}
+
+
+
+#other-games-p{
+    display: flex;
+    padding-left: 3vh;
+	font-family: 'Roboto', sans-serif;
+}
+
+#Assetto-corsa-p{
+    align-items: right;
+    padding-left: 14vh; 
+	font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    padding-top: 3vw;
+    background-color: #3E4966;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+@media (min-width:480px){
+    header img{
+        width: 16vh;
+        padding-left: 5vh;
+    }
+    
+
+}
+
+@media (min-width:530px){
+
+    header img{
+        width: 19vh;
+        padding-left: 7vh;
+    }
+    
+    #Assetto-corsa-p{
+        align-items: right;
+        padding-left: 14vh; 
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #horizon-p{
+        padding-left: 13vh;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+
+    #GTAV{
+        display: inline;
+        width: 17vh;
+        padding-left: 13vh ;
+    }
+    
+    #GTAV-p{
+        display: inline;
+        padding-left: 12vh;
+    }
+
+
+}
+
+@media (min-width: 690px){
+    header img{
+        width: 20vw;
+        padding-left: 10vh;
+    }
+
+    #DarkSouls3{
+        display: inline;
+        padding-left: 16vh;
+        width: 15vh;
+    }
+
+    #DarkSouls3-p{
+        display: inline;
+        padding-left: 10.8vh;
+    }
+}
+
+
+@media (min-width: 900px) {
+    header img{
+        width: 30vh;
+        padding-left: 13vh;
+    }
+
+    #Construção{
+        display: inline;
+    }
+
+    #Assetto-Corsa{
+        padding-right: 18vh;
+    }
+}
+
+@media (min-width: 1024px)  {
+    header img{
+        width: 30vh;
+        padding-left: 20vh;
+    }
+
+    #Em-Construção{
+        width: 15vh;
+        padding-left: 20vh;
+    }
+}
+
+@media (min-width: 1100px){
+
+    #horizon-p{
+        font-size: 2.5vh;
+        padding-left: 16vh;
+    }
+    
+    #GTAV-p{
+        padding-left: 14vh;
+    }
+
+    #DarkSouls3-p{
+        padding-left: 13vh;
+    }
+
+    #Rainbow-six-p{
+        padding-right: 2.8vh;
+    }
+
+    #Em-Construção{
+        display: inline;
+        width: 20vh;
+        padding-left: 20vh;
+    }
+
+}
